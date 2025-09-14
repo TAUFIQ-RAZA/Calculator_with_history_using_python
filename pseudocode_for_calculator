@@ -1,0 +1,46 @@
+"Pseudocode for project :
+            Calculator with history using python"
+
+step1: start of the program
+
+step2: create a file to store operations
+
+step3: create a functions history-store,clear-history,svae-to-history,exit-loop,
+       mathematics operation
+
+    a. History-store function
+        1. create a function
+        2. read the file
+        3. if len(file) == 0
+                print ("history not found")
+            else:
+                display the file
+
+    b. clear history function
+        1. over write the file
+        2. display the msg -- "history clear"
+
+
+    c. exit loop function
+        1. break the loop
+        2. display msg --"goodBye"
+
+    d. Mathematics Operations
+        1.take user_input
+        2. make it strip()
+        3. if len(user_input !=3)
+                print("invalid input")
+           else:
+                num1 = user_input[0]
+                operator=user_input[1]
+                num2 = user_input[2]
+
+                if operator=='+','-','*','/'
+                    perform operations
+                else:
+                    invalid operator
+
+5. call the main function and print the result
+
+6. close the program
+
